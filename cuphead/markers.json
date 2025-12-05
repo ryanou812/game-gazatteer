@@ -1,0 +1,968 @@
+[
+    {
+      "id": "coin1",
+      "name": "Coin",
+      "coords": [3202, 2950],
+      "category": "Coins",
+      "description": "After beating all Isle 1 bosses, Chip will move revealing a coin."
+    },
+    {
+      "id": "coin2",
+      "name": "Coin",
+      "coords": [3392, 5422],
+      "category": "Coins",
+      "description": "Hidden behind the cabin."
+    },
+    {
+      "id": "coin3",
+      "name": "Coin",
+      "coords": [3983, 3938],
+      "category": "Coins",
+      "description": "Take the secret path that connects behind Wally Warbles and Grim Matchstick. Then come back here and speak with Ginger."
+    },
+    {
+      "id": "coin4",
+      "name": "Coin",
+      "coords": [4077, 5532],
+      "category": "Coins",
+      "description": "After parrying anywhere 4 times in a row without hitting the ground, speak to Buster."
+    },
+    {
+      "id": "coin5",
+      "name": "Coin",
+      "coords": [4339, 7127],
+      "category": "Coins",
+      "description": "Hidden behind the ticket booth."
+    },
+    {
+      "id": "coin6",
+      "name": "Coin",
+      "coords": [3360, 673],
+      "category": "Coins",
+      "description": "At the end of the tutorial."
+    },
+    {
+      "id": "coin9",
+      "name": "3 Coins",
+      "coords": [3166, 1636],
+      "category": "Coins",
+      "description": "Speak with Mac."
+    },
+    {
+      "id": "coin14",
+      "name": "5 Coins",
+      "coords": [3231, 1954],
+      "category": "Coins",
+      "description": "Forest Follies Coins."
+    },
+    {
+      "id": "coin19",
+      "name": "5 Coins",
+      "coords": [3372, 2656],
+      "category": "Coins",
+      "description": "Treetop Trouble Coins."
+    },
+    {
+      "id": "coin24",
+      "name": "5 Coins",
+      "coords": [3889, 3795],
+      "category": "Coins",
+      "description": "Funfair Fever Coins."
+    },
+    {
+      "id": "coin29",
+      "name": "5 Coins",
+      "coords": [3458, 5203],
+      "category": "Coins",
+      "description": "Funhouse Frazzle Coins."
+    },
+    {
+      "id": "coin34",
+      "name": "5 Coins",
+      "coords": [3577, 7927],
+      "category": "Coins",
+      "description": "Perilous Piers Coins."
+    },
+    {
+      "id": "coin39",
+      "name": "5 Coins",
+      "coords": [4017, 6336],
+      "category": "Coins",
+      "description": "Rugged Ridge Coins."
+    },
+    {
+      "id": "coin40",
+      "name": "Coin",
+      "coords": [1582, 5021],
+      "category": "Coins",
+      "description": "At the end of Recipe for Ms. Chalice."
+    },
+    {
+      "id": "coin41",
+      "name": "Coin",
+      "coords": [5935, 8481],
+      "category": "Coins",
+      "description": "Hidden behind the wall."
+    },
+    {
+      "id": "coin44",
+      "name": "3 Coins",
+      "coords": [1440, 5272],
+      "category": "Coins",
+      "description": "Speak with Buckley."
+    },
+    {
+      "id": "coin46",
+      "name": "2 Coins",
+      "coords": [2060, 4068],
+      "category": "Coins",
+      "description": "Defeat The Pawns, then speak with the King."
+    },
+    {
+      "id": "coin48",
+      "name": "2 Coins",
+      "coords": [2060, 4118],
+      "category": "Coins",
+      "description": "Defeat The Knight, then speak with the King."
+    },
+    {
+      "id": "coin50",
+      "name": "2 Coins",
+      "coords": [2060, 4168],
+      "category": "Coins",
+      "description": "Defeat The Bishop, then speak with the King."
+    },
+    {
+      "id": "coin52",
+      "name": "2 Coins",
+      "coords": [2060, 4218],
+      "category": "Coins",
+      "description": "Defeat The Rook, then speak with the King."
+    },
+    {
+      "id": "coin55",
+      "name": "3 Coins",
+      "coords": [2060, 4268],
+      "category": "Coins",
+      "description": "Defeat The Queen, then speak with the King."
+    },
+    {
+      "id": "coin56",
+      "name": "Coin",
+      "coords": [1719, 4473],
+      "category": "Coins",
+      "description": "Take the secret path behind the Porkrind's Emporium."
+    },
+    {
+        "id": "boss1",
+        "name": "The Root Pack",
+        "coords": [2727, 1698],
+        "category": "Boss",
+        "description": "Inkwell Isle 1 Boss",
+        "icon": "root.png"
+    },
+    {
+        "id": "boss2",
+        "name": "Goopy Le Grande",
+        "coords": [3386, 2028],
+        "category": "Boss",
+        "description": "Inkwell Isle 1 Boss",
+        "icon": "goopy.png"
+    },
+    {
+        "id": "boss3",
+        "name": "Cagney Carnation",
+        "coords": [3280, 3357],
+        "category": "Boss",
+        "description": "Inkwell Isle 1 Boss",
+        "icon": "cagney.png"
+    },
+    {
+        "id": "boss4",
+        "name": "Hilda Berg",
+        "coords": [3793, 3037],
+        "category": "Boss",
+        "description": "Inkwell Isle 1 Boss",
+        "icon": "hilda.png"
+    },
+    {
+        "id": "boss5",
+        "name": "Ribby and Croaks",
+        "coords": [2344, 2006],
+        "category": "Boss",
+        "description": "Inkwell Isle 1 Boss",
+        "icon": "frogs.png"
+    },
+    {
+        "id": "boss6",
+        "name": "Beppi The Clown",
+        "coords": [2950, 4890],
+        "category": "Boss",
+        "description": "Inkwell Isle 2 Boss",
+        "icon": "beppi.png"
+    },
+    {
+        "id": "boss7",
+        "name": "Djimmi The Great",
+        "coords": [3464, 4328],
+        "category": "Boss",
+        "description": "Inkwell Isle 2 Boss",
+        "icon": "djimmi.png"
+    },
+    {
+        "id": "boss8",
+        "name": "Baroness Von Bon Bon",
+        "coords": [3462, 3758],
+        "category": "Boss",
+        "description": "Inkwell Isle 2 Boss",
+        "icon": "bonbon.png"
+    },
+    {
+        "id": "boss9",
+        "name": "Wally Warbles",
+        "coords": [4350, 3636],
+        "category": "Boss",
+        "description": "Inkwell Isle 2 Boss",
+        "icon": "wally.png"
+    },
+    {
+        "id": "boss10",
+        "name": "Grim Matchstick",
+        "coords": [4274, 5318],
+        "category": "Boss",
+        "description": "Inkwell Isle 2 Boss",
+        "icon": "grim.png"
+    },
+    {
+        "id": "boss11",
+        "name": "Rumor Honeybottoms",
+        "coords": [3515, 6224],
+        "category": "Boss",
+        "description": "Inkwell Isle 3 Boss",
+        "icon": "honey.png"
+    },
+    {
+        "id": "boss12",
+        "name": "Werner Werman",
+        "coords": [3630, 6754],
+        "category": "Boss",
+        "description": "Inkwell Isle 3 Boss",
+        "icon": "werner.png"
+    },
+    {
+        "id": "boss13",
+        "name": "Captain Brineybeard",
+        "coords": [3020, 7778],
+        "category": "Boss",
+        "description": "Inkwell Isle 3 Boss",
+        "icon": "captain.png"
+    },
+    {
+        "id": "boss14",
+        "name": "Cala Maria",
+        "coords": [4301, 7721],
+        "category": "Boss",
+        "description": "Inkwell Isle 3 Boss",
+        "icon": "cala.png"
+    },
+    {
+        "id": "boss15",
+        "name": "Dr. Kahl's Robot",
+        "coords": [4560, 6425],
+        "category": "Boss",
+        "description": "Inkwell Isle 3 Boss",
+        "icon": "kahl.png"
+    },
+    {
+        "id": "boss16",
+        "name": "Sally Stageplay",
+        "coords": [4801, 7099],
+        "category": "Boss",
+        "description": "Inkwell Isle 3 Boss",
+        "icon": "sally.png"
+    },
+    {
+        "id": "boss17",
+        "name": "Phantom Express",
+        "coords": [5152, 7708],
+        "category": "Boss",
+        "description": "Inkwell Isle 3 Boss",
+        "icon": "phantom.png"
+    },
+    {
+        "id": "boss18",
+        "name": "King Dice",
+        "coords": [6108, 8931],
+        "category": "Boss",
+        "description": "Inkwell Hell Boss",
+        "icon": "dice.png"
+    },
+    {
+        "id": "boss19",
+        "name": "The Devil",
+        "coords": [5875, 9307],
+        "category": "Boss",
+        "description": "Inkwell Hell Boss",
+        "icon": "devil.png"
+    },
+    {
+        "id": "boss20",
+        "name": "Moonshine Mob",
+        "coords": [905, 4795],
+        "category": "Boss",
+        "description": "Inkwell Isle 4 Boss",
+        "icon": "moonshine.png"
+    },
+    {
+        "id": "boss21",
+        "name": "Esther Winchester",
+        "coords": [434, 5025],
+        "category": "Boss",
+        "description": "Inkwell Isle 4 Boss",
+        "icon": "esther.png"
+    },
+    {
+        "id": "boss22",
+        "name": "The Howling Aces",
+        "coords": [814, 6128],
+        "category": "Boss",
+        "description": "Inkwell Isle 4 Boss",
+        "icon": "aces.png"
+    },
+    {
+        "id": "boss23",
+        "name": "Mortimer Freeze",
+        "coords": [1528, 6683],
+        "category": "Boss",
+        "description": "Inkwell Isle 4 Boss",
+        "icon": "mortimer.png"
+    },
+    {
+        "id": "boss24",
+        "name": "Glumstone The Giant",
+        "coords": [1765, 6014],
+        "category": "Boss",
+        "description": "Inkwell Isle 4 Boss",
+        "icon": "glumstone.png"
+    },
+    {
+        "id": "boss25",
+        "name": "Chef Saltbaker",
+        "coords": [1591, 4685],
+        "category": "Boss",
+        "description": "Inkwell Isle 4 Boss",
+        "icon": "saltbaker.png"
+    },
+    {
+        "id": "boss26",
+        "name": "Angel and Devil",
+        "coords": [1087, 5945],
+        "category": "Boss",
+        "description": "Inkwell Isle 4 Secret Boss",
+        "icon": "angel.png"
+    },
+    {
+        "id": "boss27",
+        "name": "The Queen",
+        "coords": [2000, 4268],
+        "category": "Boss",
+        "description": "The King's Leap Boss",
+        "icon": "queen.png"
+    },
+    {
+        "id": "boss28",
+        "name": "The Rook",
+        "coords": [2000, 4218],
+        "category": "Boss",
+        "description": "The King's Leap Boss",
+        "icon": "rook.png"
+    },
+    {
+        "id": "boss29",
+        "name": "The Bishop",
+        "coords": [2000, 4168],
+        "category": "Boss",
+        "description": "The King's Leap Boss",
+        "icon": "bishop.png"
+    },
+    {
+        "id": "boss30",
+        "name": "The Knight",
+        "coords": [2000, 4118],
+        "category": "Boss",
+        "description": "The King's Leap Boss",
+        "icon": "knight.png"
+    },
+    {
+        "id": "boss31",
+        "name": "The Pawns",
+        "coords": [2000, 4068],
+        "category": "Boss",
+        "description": "The King's Leap Boss",
+        "icon": "pawns.png"
+    },
+    {
+        "id": "run1",
+        "name": "Forest Follies",
+        "coords": [3231, 1904],
+        "category": "RunGun",
+        "description": "Inkwell Isle 1 Run 'n Gun",
+        "icon": "forest.png"
+    },
+    {
+        "id": "run2",
+        "name": "Treetop Trouble",
+        "coords": [3372, 2606],
+        "category": "RunGun",
+        "description": "Inkwell Isle 1 Run 'n Gun",
+        "icon": "tree.png"
+    },
+    {
+        "id": "run3",
+        "name": "Funhouse Frazzle",
+        "coords": [3458, 5153],
+        "category": "RunGun",
+        "description": "Inkwell Isle 2 Run 'n Gun",
+        "icon": "frazzle.png"
+    },
+    {
+        "id": "run4",
+        "name": "Funfair Fever",
+        "coords": [3889, 3745],
+        "category": "RunGun",
+        "description": "Inkwell Isle 2 Run 'n Gun",
+        "icon": "funfair.png"
+    },
+    {
+        "id": "run5",
+        "name": "Perilous Piers",
+        "coords": [3577, 7877],
+        "category": "RunGun",
+        "description": "Inkwell Isle 3 Run 'n Gun",
+        "icon": "piers.png"
+    },
+    {
+        "id": "run6",
+        "name": "Rugged Ridge",
+        "coords": [4017, 6286],
+        "category": "RunGun",
+        "description": "Inkwell Isle 3 Run 'n Gun",
+        "icon": "rugged.png"
+    },
+    {
+        "id": "boat1",
+        "name": "The Boatman",
+        "coords": [2398, 3049],
+        "category": "Travel",
+        "description": "Fast Travel Location"
+    },
+    {
+        "id": "boat2",
+        "name": "The Boatman",
+        "coords": [2758, 5736],
+        "category": "Travel",
+        "description": "Fast Travel Location"
+    },
+    {
+        "id": "boat3",
+        "name": "The Boatman",
+        "coords": [3857, 8181],
+        "category": "Travel",
+        "description": "Fast Travel Location"
+    },
+    {
+        "id": "boat4",
+        "name": "The Boatman",
+        "coords": [817, 3946],
+        "category": "Travel",
+        "description": "Fast Travel Location"
+    },
+    {
+        "id": "npc1",
+        "name": "Angel",
+        "coords": [2399, 2633],
+        "category": "NPC",
+        "description": "Inkwell Isle 1 NPC",
+        "icon": "fish.png"
+    },
+    {
+        "id": "npc2",
+        "name": "Buckley",
+        "coords": [1440, 5222],
+        "category": "NPC",
+        "description": "Inkwell Isle 4 NPC",
+        "icon": "buckley.png"
+    },
+    {
+        "id": "npc3",
+        "name": "Buster",
+        "coords": [4077, 5482],
+        "category": "NPC",
+        "description": "Inkwell Isle 2 NPC",
+        "icon": "buster.png"
+    },
+    {
+        "id": "npc4",
+        "name": "Canteen Hughes",
+        "coords": [3834, 2406],
+        "category": "NPC",
+        "description": "Inkwell Isle 1 NPC",
+        "icon": "canteen.png"
+    },
+    {
+        "id": "npc5",
+        "name": "Canteen Hughes",
+        "coords": [3647, 4003],
+        "category": "NPC",
+        "description": "Talk to Canteen to receive mini-bombs.",
+        "icon": "canteen.png"
+    },
+    {
+        "id": "npc6",
+        "name": "Chip",
+        "coords": [3153, 2986],
+        "category": "NPC",
+        "description": "Inkwell Isle 1 NPC",
+        "icon": "chip.png"
+    },
+    {
+        "id": "npc7",
+        "name": "Cora",
+        "coords": [3137, 6984],
+        "category": "NPC",
+        "description": "Inkwell Isle 3 NPC",
+        "icon": "cora.png"
+    },
+    {
+        "id": "npc8",
+        "name": "Elder Kettle",
+        "coords": [3360, 723],
+        "category": "NPC",
+        "description": "Inkwell Isle 1 NPC",
+        "icon": "elder.png"
+    },
+    {
+        "id": "npc9",
+        "name": "Four Mel Arrangement",
+        "coords": [3308, 4580],
+        "category": "NPC",
+        "description": "Inkwell Isle 2 NPCs",
+        "icon": "mel.png"
+    },
+    {
+        "id": "npc10",
+        "name": "Ginger",
+        "coords": [3983, 3888],
+        "category": "NPC",
+        "description": "Inkwell Isle 2 NPC",
+        "icon": "ginger.png"
+    },
+    {
+        "id": "npc11",
+        "name": "Inspector Graves",
+        "coords": [1123, 6224],
+        "category": "NPC",
+        "description": "Inkwell Isle 4 NPC",
+        "icon": "graves.png"
+    },
+    {
+        "id": "npc12",
+        "name": "Senita",
+        "coords": [517, 5410],
+        "category": "NPC",
+        "description": "Inkwell Isle 4 NPC",
+        "icon": "senita.png"
+    },
+    {
+        "id": "npc13",
+        "name": "Mac",
+        "coords": [3166, 1586],
+        "category": "NPC",
+        "description": "Inkwell Isle 1 NPC",
+        "icon": "mac.png"
+    },
+    {
+        "id": "npc14",
+        "name": "Quint",
+        "coords": [2692, 2136],
+        "category": "NPC",
+        "description": "Inkwell Isle 1 NPC",
+        "icon": "quint.png"
+    },
+    {
+        "id": "npc15",
+        "name": "Lumin, Digby, and Prynne",
+        "coords": [1853, 5604],
+        "category": "NPC",
+        "description": "Inkwell Isle 4 NPCs",
+        "icon": "ldp.png"
+    },
+    {
+        "id": "npc16",
+        "name": "Lucien",
+        "coords": [4422, 4697],
+        "category": "NPC",
+        "description": "Inkwell Isle 2 NPC",
+        "icon": "lucien.png"
+    },
+    {
+        "id": "npc17",
+        "name": "Tully",
+        "coords": [3976, 8059],
+        "category": "NPC",
+        "description": "Inkwell Isle 3 NPC",
+        "icon": "tully.png"
+    },
+    {
+        "id": "npc18",
+        "name": "Wolfgang",
+        "coords": [4801, 6761],
+        "category": "NPC",
+        "description": "Inkwell Isle 3 NPC",
+        "icon": "wolf.png"
+    },
+    {
+        "id": "npc19",
+        "name": "Ludwig",
+        "coords": [4139, 6379],
+        "category": "NPC",
+        "description": "Inkwell Isle 3 NPC",
+        "icon": "ludwig.png"
+    },
+    {
+        "id": "npc20",
+        "name": "Silverworth",
+        "coords": [4000, 6772],
+        "category": "NPC",
+        "description": "Inkwell Isle 3 NPC",
+        "icon": "silver.png"
+    },
+    {
+        "id": "npc21",
+        "name": "Quadratus",
+        "coords": [3044, 5594],
+        "category": "NPC",
+        "description": "Inkwell Isle 2 NPC. Talking to this NPC will tell the player their death count.",
+        "icon": "quad.png"
+    },
+    {
+        "id": "item1",
+        "name": "Charge",
+        "coords": [1244, 2596],
+        "category": "Items",
+        "description": "Standard Weapon",
+        "icon": "charge.png"
+    },
+    {
+        "id": "item2",
+        "name": "Lobber",
+        "coords": [1244, 2546],
+        "category": "Items",
+        "description": "Standard Weapon",
+        "icon": "lobber.png"
+    },
+    {
+        "id": "item3",
+        "name": "Chaser",
+        "coords": [1244, 2496],
+        "category": "Items",
+        "description": "Standard Weapon",
+        "icon": "chaser.png"
+    },
+    {
+        "id": "item4",
+        "name": "Spread",
+        "coords": [1244, 2446],
+        "category": "Items",
+        "description": "Standard Weapon",
+        "icon": "spread.png"
+    },
+    {
+        "id": "item5",
+        "name": "Peashooter",
+        "coords": [1244, 2396],
+        "category": "Items",
+        "description": "Standard Weapon",
+        "icon": "pea.png"
+    },
+    {
+        "id": "item6",
+        "name": "Roundabout",
+        "coords": [1244, 2646],
+        "category": "Items",
+        "description": "Standard Weapon",
+        "icon": "round.png"
+    },
+    {
+        "id": "item7",
+        "name": "Crackshot",
+        "coords": [1244, 2696],
+        "category": "Items",
+        "description": "Standard Weapon",
+        "icon": "crack.png"
+    },
+    {
+        "id": "item8",
+        "name": "Converge",
+        "coords": [1244, 2746],
+        "category": "Items",
+        "description": "Standard Weapon",
+        "icon": "converge.png"
+    },
+    {
+        "id": "item9",
+        "name": "Twist-Up",
+        "coords": [1244, 2796],
+        "category": "Items",
+        "description": "Standard Weapon",
+        "icon": "twist.png"
+    },
+    {
+        "id": "item10",
+        "name": "Astral Cookie",
+        "coords": [1591, 4735],
+        "category": "Items",
+        "description": "Charm. Allows the player to play as Ms. Chalice.",
+        "icon": "cookie.png"
+    },
+    {
+        "id": "item11",
+        "name": "Heart",
+        "coords": [1304, 2421],
+        "category": "Items",
+        "description": "Charm. Grants one additional hit point while also weakening attack power by 10%.",
+        "icon": "heart.png"
+    },
+    {
+        "id": "item12",
+        "name": "Smoke Bomb",
+        "coords": [1304, 2471],
+        "category": "Items",
+        "description": "Charm. Grants invincibility while dashing.",
+        "icon": "smoke.png"
+    },
+    {
+        "id": "item13",
+        "name": "P. Sugar",
+        "coords": [1304, 2521],
+        "category": "Items",
+        "description": "Charm. Allows the player to automatically parry while in the air once.",
+        "icon": "sugar.png"
+    },
+    {
+        "id": "item14",
+        "name": "Coffee",
+        "coords": [1304, 2571],
+        "category": "Items",
+        "description": "Charm. Continuously fills the super meter.",
+        "icon": "coffee.png"
+    },
+    {
+        "id": "item15",
+        "name": "Twin Heart",
+        "coords": [1304, 2621],
+        "category": "Items",
+        "description": "Charm. Grants two additional hit points while also weakening attack power by 20%.",
+        "icon": "twin.png"
+    },
+    {
+        "id": "item16",
+        "name": "Whetstone",
+        "coords": [1304, 2671],
+        "category": "Items",
+        "description": "Charm. Your first parry move doubles as a damaging axe attack.",
+        "icon": "whet.png"
+    },
+    {
+        "id": "item17",
+        "name": "Heart Ring",
+        "coords": [1304, 2721],
+        "category": "Items",
+        "description": "Charm. After parrying for the 1st, 3rd, and 6th time, will grant an additional hit point.",
+        "icon": "ring.png"
+    },
+    {
+        "id": "item18",
+        "name": "Broken Relic",
+        "coords": [1304, 2771],
+        "category": "Items",
+        "description": "Charm. Does nothing while equipped.",
+        "icon": "relic.png"
+    },
+    {
+        "id": "item19",
+        "name": "Cursed Relic",
+        "coords": [1087, 5995],
+        "category": "Items",
+        "description": "Charm. Applied a curse to the player, randomizing weapons and reducing HP. Unlocks after defeating the Angel and Devil boss (You don't need the Broken Relic equipped).",
+        "icon": "cursed.png"
+    },
+    {
+        "id": "item20",
+        "name": "Divine Relic",
+        "coords": [1123, 6274],
+        "category": "Items",
+        "description": "Charm. Randomizes weapons. Applies Smoke Bomb, Whetstone, and Heart Ring status effects. Charges super meter by 5.2% every second. After defeating enough bosses with the Cursed Relic, it will upgrade into the Divine Relic.",
+        "icon": "divine.png"
+    },
+    {
+        "id": "item21",
+        "name": "Super Art I",
+        "coords": [2543, 3022],
+        "category": "Items",
+        "description": "Cuphead/Mugman: Energy Beam. Ms. Chalice: Spiral Pillar.",
+        "icon": "super1.png"
+    },
+    {
+        "id": "item22",
+        "name": "Super Art II",
+        "coords": [4423, 4311],
+        "category": "Items",
+        "description": "Cuphead/Mugman: Invincibility. Ms. Chalice: Shield Pal.",
+        "icon": "super2.png"
+    },
+    {
+        "id": "item23",
+        "name": "Super Art III",
+        "coords": [3941, 7474],
+        "category": "Items",
+        "description": "Cuphead/Mugman: Giant Ghost. Ms. Chalice: Ghostly Barrage.",
+        "icon": "super3.png"
+    },
+    {
+        "id": "secret1",
+        "name": "Secret Path",
+        "coords": [3649, 2381],
+        "category": "Secrets",
+        "description": "Secret path through the underpass."
+    },
+    {
+        "id": "secret2",
+        "name": "Four Mel Arrangement Member",
+        "coords": [3977, 3545],
+        "category": "Secrets",
+        "description": "The 4th member of the Four Mel Arrangement is hidden behind this tent."
+    },
+    {
+        "id": "secret3",
+        "name": "Secret Song",
+        "coords": [3308, 4630],
+        "category": "Secrets",
+        "description": "After the 4th member of the Four Mel Arrangement has been reunited, they will sing a secret song."
+    },
+    {
+        "id": "secret4",
+        "name": "Secret Path",
+        "coords": [4314, 3700],
+        "category": "Secrets",
+        "description": "Secret path behind the mountain."
+    },
+    {
+        "id": "secret4a",
+        "name": "Secret Path",
+        "coords": [4440, 5487],
+        "category": "Secrets",
+        "description": "Secret path behind the mountain."
+    },
+    {
+        "id": "secret5",
+        "name": "Secret Path",
+        "coords": [4611, 6038],
+        "category": "Secrets",
+        "description": "Secret path behind the junkyard."
+    },
+    {
+        "id": "secret6",
+        "name": "Minimalist Sound Mode",
+        "coords": [4801, 6811],
+        "category": "Secrets",
+        "description": "After speaking to Ludwig and Wolfgang multiple times, you will enable the minimalist sound mode. To change back to normal, talk to Wolfgang again."
+    },
+    {
+        "id": "secret7",
+        "name": "2-Strip Mode",
+        "coords": [4000, 6822],
+        "category": "Secrets",
+        "description": "After achieving at least A rank on 15 levels, talking to Silverworth will unlock the 2-Strip screen filter."
+    },
+    {
+        "id": "secret8",
+        "name": "Black/White Mode",
+        "coords": [3976, 8109],
+        "category": "Secrets",
+        "description": "After achieving P rank on all Run 'n Gun levels, talking to Tully will unlock the black and white screen filter."
+    },
+    {
+        "id": "secret9",
+        "name": "Secret Path",
+        "coords": [1761, 5390],
+        "category": "Secrets",
+        "description": "Secret path behind Porkrind's Emporium."
+    },
+    {
+        "id": "secret10",
+        "name": "Chalice Mode",
+        "coords": [517, 5460],
+        "category": "Secrets",
+        "description": "After defeating every boss in the game as Ms. Chalice, speak with Senita to unlock Chalice Mode."
+    },
+    {
+        "id": "secret11",
+        "name": "Vintage Mode",
+        "coords": [4000, 6872],
+        "category": "Secrets",
+        "description": "After unlocking any other filter, Vintage Mode will unlock as well."
+    },
+    {
+        "id": "secret12",
+        "name": "Expert Mode",
+        "coords": [5875, 9357],
+        "category": "Secrets",
+        "description": "After beating every boss in regular mode, expert mode will unlock for every boss."
+    },
+    {
+        "id": "secret13",
+        "name": "Graveyard Hint",
+        "coords": [1853, 5654],
+        "category": "Secrets",
+        "description": "Talking to Lumin, Digby, and Prynne will give directional hints on how to solve the graveyard puzzle which is different on every playthrough."
+    },
+    {
+        "id": "secret14",
+        "name": "Graveyard Puzzle",
+        "coords": [1087, 5895],
+        "category": "Secrets",
+        "description": "This puzzle only unlocks after buying the broken relic. Touch 3 gravestones in order using the directional hints from the climbing contestants in the order they placed. This will reveal the Angel and Devil secret boss."
+    },
+    {
+        "id": "secret15",
+        "name": "Secret Path",
+        "coords": [1210, 5632],
+        "category": "Secrets",
+        "description": "Secret path behind the waterfall."
+    },
+    {
+        "id": "maus1",
+        "name": "Mausoleum 1",
+        "coords": [2543, 2972],
+        "category": "Maus",
+        "description": "Inkwell Isle 1 Mausoleum",
+        "icon": "maus1.png"
+    },
+    {
+        "id": "maus2",
+        "name": "Mausoleum 2",
+        "coords": [4423, 4261],
+        "category": "Maus",
+        "description": "Inkwell Isle 2 Mausoleum",
+        "icon": "maus2.png"
+    },
+    {
+        "id": "maus3",
+        "name": "Mausoleum 3",
+        "coords": [3941, 7424],
+        "category": "Maus",
+        "description": "Inkwell Isle 3 Mausoleum",
+        "icon": "maus3.png"
+    }
+  ]
