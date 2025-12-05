@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Gazatteer – Interactive Maps</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Google Fonts (Old-style serif) -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=IM+Fell+English&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0p4x;
+            font-family: "IM Fell English", serif;
+            /*background: url('assets/par.jp') repeat center center; */
+            /* If texture fails, fallback */
+            background-color: #e7d8b1;
+            color: #3a2d17;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 4em;
+            margin-bottom: 0;
+            font-family: "Cinzel", serif;
+            text-shadow: 0 0 8px #f7f1dc;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 1.3em;
+            margin-bottom: 40px;
+        }
+
+        /* SEARCH BAR */
+        .search-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .search-container input {
+            width: 320px;
+            padding: 12px;
+            border-radius: 6px;
+            border: 2px solid #6a5331;
+            background: #f4e7c5;
+            font-size: 1.2em;
+            font-family: "IM Fell English", serif;
+        }
+
+        /* GRID */
+        .grid {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 30px;
+        }
+
+        /* MAP CARDS */
+        .map-card {
+            background: rgba(255, 245, 214, 0.9);
+            border: 2px solid #5e4729;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(70, 50, 20, 0.4);
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .map-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 15px rgba(70, 50, 20, 0.6);
+        }
+
+        .map-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border: 2px solid #5e4729;
+            border-radius: 6px;
+        }
+
+        .title {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 1.4em;
+            font-weight: bold;
+            font-family: "Cinzel", serif;
+        }
+
+        .header {
+            display: flex;
+            align-items: center; /* vertically center logo with text */
+            justify-content: center; /* center the whole header horizontally */
+            gap: 15px; /* space between logo and text */
+            margin-top: 20px;
+        }
+
+        .header h1 {
+            font-size: 4em;
+            font-family: "Cinzel", serif;
+            text-shadow: 0 0 8px #f7f1dc;
+            margin: 0; /* remove default margin */
+            line-height: 1; /* ensures vertical alignment works better */
+        }
+
+        .header .logo {
+            height: 5em; /* match text height */
+            width: auto; /* maintain aspect ratio */
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="logo.png" alt="Game Gazatteer Logo" class="logo">
+        <h1>Game Gazatteer</h1>
+    </div>
+    <div class="subtitle">A Collection of Interactive Game Maps</div>
+
+    <!-- SEARCH -->
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Search maps...">
+    </div>
+
+    <!-- GRID -->
+    <div class="grid" id="mapGrid">
+
+        <!-- SAMPLE CARDS (Replace with your own) -->
+        <div class="map-card" data-title="Cuphead Map" onclick="location.href='./cuphead-map/index.html'">
+            <img src="thumbnails/cuphead.png" alt="Cuphead">
+            <div class="title">Cuphead</div>
+        </div>
+
+        <!--<div class="map-card" data-title="Placeholder" onclick="location.href='./hk-map/index.html'">
+            <img src="thumbnails/hk.jpg" alt="Placeholder">
+            <div class="title">Placeholder</div>
+        </div>-->
+
+    </div>
+
+    <script>
+        // LIVE SEARCH
+        const searchInput = document.getElementById("search");
+        const mapCards = document.querySelectorAll(".map-card");
+
+        searchInput.addEventListener("input", () => {
+            const q = searchInput.value.toLowerCase();
+            mapCards.forEach(card => {
+                const title = card.getAttribute("data-title").toLowerCase();
+                card.style.display = title.includes(q) ? "block" : "none";
+            });
+        });
+    </script>
+
+</body>
+</html>
